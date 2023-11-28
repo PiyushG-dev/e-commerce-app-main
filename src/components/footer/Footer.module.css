@@ -1,0 +1,41 @@
+.wrapper{
+    padding: 2rem 2rem;
+    background: #1c1d20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #fff;
+    font-family: futura;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo h1:nth-child(2){
+    position: relative;
+}
+
+.registered{
+    font-size: .7rem;
+    position: absolute;
+    top: -.5rem;
+    right: .8rem;
+}
+
+.socials{
+    color: #fff;
+    display: flex;
+    gap: 2vmax;
+    font-size: 1.5rem;
+}
+
+.copyright{
+    color: #fff;
+    font-family: helve-med;
+    letter-spacing: .1rem;
+}

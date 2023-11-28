@@ -1,0 +1,23 @@
+.wrapper{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 14vmax;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+   padding-bottom: 1rem;
+}
+
+.heading h1{
+    font-size: 2.5rem;
+    font-family: futura;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+

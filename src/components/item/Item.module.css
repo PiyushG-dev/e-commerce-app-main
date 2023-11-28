@@ -1,0 +1,29 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 25%;
+}
+
+.item img{
+    width: 100%;
+    height: 30vmax;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.name{
+    font-family: mono;
+}
+
+.prices{
+    font-family: helve-med;
+    display: flex;
+    gap: .5rem;
+}
+
+.prices p:nth-child(2){
+    color: #808080;
+    text-decoration: line-through;
+}
+

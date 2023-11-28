@@ -1,0 +1,31 @@
+.wrapper{
+    padding-top: 5rem;
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-bottom: 14vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper h1{
+    font-family: futura;
+    text-transform: uppercase;
+    font-size: 12vw;
+    color: #1c1d20;
+}
+
+.wrapper h1:nth-child(2){
+    margin-top: -2vmax;
+}
+
+.wrapper h2{
+    font-family: mono;
+    font-size: 1.5rem;
+    margin-top: 3vmax;
+    border-bottom: 2px solid #70707081;
+    padding-bottom: 2rem;
+}
+
+

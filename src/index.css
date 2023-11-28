@@ -1,0 +1,34 @@
+@font-face {
+    font-family: futura;
+    src: url("./fonts/Futura-Bold.woff2");
+}
+
+@font-face {
+    font-family: helve-med;
+    src: url("./fonts/HelveticaNowDisplay-Medium.woff2");
+}
+
+@font-face {
+    font-family: helve;
+    src: url("./fonts/HelveticaNowText-Regular.woff2");
+}
+
+@font-face {
+    font-family: mono;
+    src: url("./fonts/ABCSocialMono-Regular.woff2");
+}
+
+@font-face {
+    font-family: memv;
+    src: url("./fonts/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2");
+}
+
+
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{overflow: hidden;}
+
+

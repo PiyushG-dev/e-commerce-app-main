@@ -1,0 +1,30 @@
+.wrapper{
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1rem;
+}
+
+.heading h1{
+    font-size: 2.5rem;
+}
+.heading hr{
+    border: 2px solid #000;
+    width: 50%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}

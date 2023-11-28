@@ -1,0 +1,64 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 100vh;
+}
+
+.left{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vmax;
+    gap: 2rem;
+}
+
+.left h1{
+    font-family: futura;
+    font-size: 5vmax;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.left h2{
+    font-family: helve;
+    font-size: 1.4rem;
+}
+
+.left p{
+    width: 25%;
+    font-family: mono;
+    border-bottom: 2px solid #70707081;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.center{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+   
+}
+.center img{
+    height: 60%;
+    width: 80%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.right{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.right img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+

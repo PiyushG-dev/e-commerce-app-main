@@ -1,0 +1,39 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 14vmax;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    font-family: futura;
+    text-align: center;
+    font-size: 4.5vmax;
+    text-transform: uppercase;
+}
+
+.container h2{
+    font-family: mono;
+    margin-bottom: 2rem;
+}
+
+.button{
+    font-family: mono;
+    color: #fff;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    background-color: #1c1d20;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}

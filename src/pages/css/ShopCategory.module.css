@@ -1,0 +1,8 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vmax;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 14vmax;
+}

@@ -1,0 +1,40 @@
+.wrapper{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 14vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left{
+    width: 50%;
+}
+
+.left h1{
+    font-family: futura;
+    font-size: 3.5vmax;
+    text-transform: uppercase;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+}
+
+.right p{
+    font-family: helve;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.right p:nth-child(3){
+    width: 28%;
+    font-family: mono;
+    border-bottom: 2px solid #70707081;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
