@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "../components/hero/Hero";
-import NewCollection from "../components/newCollection/NewCollection";
 import Popular from "../components/popular/Popular";
 import Gallery from "../components/gallery/Gallery";
 import Collection from "../components/collection/Collection";

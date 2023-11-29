@@ -14,7 +14,7 @@ const ProductDisplay = ({ product }) => {
       <div className={styles.product_info_container}>
         <div className={styles.product_name_container}>
           <h3>essentials</h3>
-          <h1>T-shirt american apparel</h1>
+          <h1>Textured sweatshirt</h1>
           <p>$40.00</p>
           <p>*limited quantity</p>
           <hr />
