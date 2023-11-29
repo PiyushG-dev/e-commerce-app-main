@@ -17,21 +17,21 @@ const Gallery = () => {
       col_one.current,
       { top: "-30%" },
       {
-        top: "0%",
+        top: "30%",
         scrollTrigger: {
           trigger: wrapper.current,
-          scrub: 1,
+          scrub: 0.2,
         },
       }
     );
     gsap.fromTo(
       col_two.current,
-      { top: "5%" },
+      { top: "15%" },
       {
         top: "-5%",
         scrollTrigger: {
           trigger: wrapper.current,
-          scrub: 1,
+          scrub: 0.2,
         },
       }
     );
@@ -39,21 +39,21 @@ const Gallery = () => {
       col_three.current,
       { top: "-30%" },
       {
-        top: "0%",
+        top: "30%",
         scrollTrigger: {
           trigger: wrapper.current,
-          scrub: 1,
+          scrub: 0.2,
         },
       }
     );
     gsap.fromTo(
       col_four.current,
-      { top: "5%" },
+      { top: "15%" },
       {
         top: "-5%",
         scrollTrigger: {
           trigger: wrapper.current,
-          scrub: 1,
+          scrub: 0.2,
         },
       }
     );

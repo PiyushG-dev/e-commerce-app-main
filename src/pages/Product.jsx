@@ -13,7 +13,7 @@ const Product = () => {
 
   return (
     <section className={styles.wrapper}>
-      <Breadcrumb product={product} />
+      {/* <Breadcrumb product={product} /> */}
       <ProductDisplay product={product} />
     </section>
   );
