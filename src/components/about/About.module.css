@@ -31,7 +31,7 @@
 }
 
 .right p:nth-child(3){
-    width: 28%;
+    width: max-content;
     font-family: mono;
     border-bottom: 2px solid #70707081;
     cursor: pointer;

@@ -1,5 +1,7 @@
 .wrapper{
-    padding: 2rem 2rem 0rem 2rem;
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
     display: flex;
     height: 100%;
 }
@@ -12,7 +14,7 @@
 
 .product_image{
     width: 70%;
-    height: 80vh;
+    height: 44vmax;
     object-fit: cover;
     border-radius: 1.5rem;
 }

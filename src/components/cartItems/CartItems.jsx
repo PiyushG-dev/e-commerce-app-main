@@ -6,7 +6,7 @@ import { ShopContext } from "../../context/ShopContext";
 const CartItems = () => {
   const { all_product, removeFromCart, cartItems } = useContext(ShopContext);
   return (
-    <div className={styles.CartItems}>
+    <div className={styles.cartItems}>
       {all_product.map((product) => {
         if (cartItems[product.id] > 0) {
           return (

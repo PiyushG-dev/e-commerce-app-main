@@ -13,7 +13,6 @@ const Product = () => {
 
   return (
     <section className={styles.wrapper}>
-      {/* <Breadcrumb product={product} /> */}
       <ProductDisplay product={product} />
     </section>
   );

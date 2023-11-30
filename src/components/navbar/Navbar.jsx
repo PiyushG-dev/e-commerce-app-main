@@ -17,6 +17,7 @@ const Navbar = () => {
   const btn = useRef(null);
   const mobile_menu = useRef(null);
   const [isActive, setIsActive] = useState(false);
+
   const variants = {
     open: {
       width: 480,
@@ -109,9 +110,20 @@ const Navbar = () => {
               Kids
             </Link>
           </li>
-          <li className={styles.cart}>
-            <Link to="/cart">
-              <FontAwesomeIcon icon={faCartShopping} />
+          <li className={styles}>
+            <Link
+              style={{ textDecoration: "none" }}
+              className={styles.cart}
+              to="/cart"
+            >
+              <FontAwesomeIcon
+                className={styles.cart_icon}
+                icon={faCartShopping}
+              />
+              <span className={styles.cart_quantity}>
+                <span></span>
+                <span>2</span>
+              </span>
             </Link>
           </li>
         </ul>

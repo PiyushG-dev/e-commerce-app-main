@@ -26,7 +26,39 @@
 .menu ul{
     display: flex;
     gap: 3rem;
+    align-items: center;
 }
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.cart_icon{
+    font-size: 1.2rem;
+    color: #1c1d20;
+}
+
+.cart_quantity{
+    width: 3.2rem;
+    height: 1.8rem;
+    border: 1px solid #1c1d20;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.cart_quantity span:nth-of-type(1){
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    border: none;
+    background: #1c1d20;
+}
+
 
 .menu ul li{
     list-style-type: none;
