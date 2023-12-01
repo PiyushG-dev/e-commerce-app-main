@@ -1,0 +1,52 @@
+.container{
+    background: #eeeeee;
+    padding: 1.5rem 1rem;
+    width: 25%;
+    margin-left: 2vmax;
+}
+
+.heading{
+    font-family: helve-med;
+    font-size: 1.4rem;
+    padding-bottom: .8rem;
+}
+.sub_total{
+    font-family: helve;
+    font-size: .9rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+}
+.other_fees{
+    font-family: helve;
+    font-size: .9rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+}
+
+.container hr{
+    margin-bottom: .5rem;
+}
+
+.grand_total{
+    font-family: helve-med;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .8rem;
+}
+
+.container button{
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-family: helve;
+    cursor: pointer;
+}
+
+.container button:active{
+    background-color: #2d2d2d;
+}

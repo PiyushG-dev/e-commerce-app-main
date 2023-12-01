@@ -1,0 +1,11 @@
+.wrapper{
+    padding-top: 2vmax;
+    padding-left: 2vmax;
+    padding-right: 2vmax;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 14vmax;
+}
