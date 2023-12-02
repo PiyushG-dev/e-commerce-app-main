@@ -1,5 +1,8 @@
 .wrapper{
-    padding: 1.5rem 2rem 1.5rem 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -115,4 +118,35 @@
     position: fixed;
     z-index: 2;
     scale: 0;
+}
+
+/* tablet version */
+
+@media(max-width:1000px){
+    .mobile_btn{
+        scale: 1;
+    }
+
+    .mobile_menu{
+        scale: 1;
+    }
+    .menu{
+        display: none;
+    }
+
+}
+
+/* mobile version */
+
+@media (max-width:600px){
+
+  
+    .logo{
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+    .registered{
+        right: .6rem;
+        font-size: .6rem;
+    }
 }

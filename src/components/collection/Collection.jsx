@@ -33,10 +33,11 @@ const Collection = () => {
       { transform: "rotate(0)", left: 0, bottom: 0, opacity: 0 },
       {
         transform: "rotate(-10deg)",
-        left: "-20rem",
-        bottom: "2rem",
+        left: "-20vmax",
+        bottom: "2vmax",
         duration: 1,
         opacity: 1,
+        delay: 0.2,
         scrollTrigger: {
           trigger: apparels.current,
           start: "top 70%",
@@ -48,10 +49,11 @@ const Collection = () => {
       { transform: "rotate(0)", right: 0, bottom: 0, opacity: 0 },
       {
         transform: "rotate(10deg)",
-        right: "-20rem",
-        bottom: "2rem",
+        right: "-20vmax",
+        bottom: "2vmax",
         duration: 1,
         opacity: 1,
+        delay: 0.2,
         scrollTrigger: {
           trigger: apparels.current,
           start: "top 70%",

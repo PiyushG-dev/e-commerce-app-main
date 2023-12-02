@@ -11,7 +11,6 @@
     position: relative;
 }
 
-
 .apparel_one{
     width: 35vmax;
     height: 40vmax;
@@ -26,12 +25,8 @@
     object-fit: cover;
     object-position: top;
     position: absolute;
-    left: -20rem;
     z-index: -1;
-    transform: rotate(-10deg);
-    bottom: 2rem;
     border-radius: 1rem;
-    
 }
 
 .apparel_three{
@@ -40,10 +35,7 @@
     object-fit: cover;
     object-position: top;
     position: absolute;
-    right: -20rem;
     z-index: -1;
-    transform: rotate(10deg);
-    bottom: 2rem;
     border-radius: 1rem;
 }
 
@@ -51,7 +43,7 @@
     font-family: mono;
     color: #fff;
     margin-top: 2rem;
-    padding: 1.5rem 3rem;
+    padding: 1.2rem 2.5rem;
     border-radius: 2rem;
     background-color: #1c1d20;
     cursor: pointer;

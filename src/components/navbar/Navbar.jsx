@@ -17,6 +17,7 @@ const Navbar = () => {
   const btn = useRef(null);
   const mobile_menu = useRef(null);
   const [isActive, setIsActive] = useState(false);
+  const screenWidth = window.innerWidth;
 
   const variants = {
     open: {
@@ -35,50 +36,52 @@ const Navbar = () => {
     },
   };
 
-  useEffect(() => {
-    gsap.to(btn.current, {
-      scrollTrigger: {
-        trigger: document.documentElement,
-        start: 0,
-        end: window.innerHeight,
-        onLeave: () => {
-          gsap.to(btn.current, {
-            scale: 1,
-            duration: 0.25,
-            ease: "power1.out",
-          });
-        },
-        onEnterBack: () => {
-          gsap.to(btn.current, {
-            scale: 0,
-            duration: 0.25,
-            ease: "power1.out",
-          });
-        },
-      },
-    });
-    gsap.to(mobile_menu.current, {
-      scrollTrigger: {
-        trigger: document.documentElement,
-        start: 0,
-        end: window.innerHeight,
-        onLeave: () => {
-          gsap.to(mobile_menu.current, {
-            scale: 1,
-            duration: 0.25,
-            ease: "power1.out",
-          });
-        },
-        onEnterBack: () => {
-          gsap.to(mobile_menu.current, {
-            scale: 0,
-            duration: 0.25,
-            ease: "power1.out",
-          });
-        },
-      },
-    });
-  }, []);
+  // useEffect(() => {
+  //   if (screenWidth > 600) {
+  //     gsap.to(btn.current, {
+  //       scrollTrigger: {
+  //         trigger: document.documentElement,
+  //         start: 0,
+  //         end: window.innerHeight,
+  //         onLeave: () => {
+  //           gsap.to(btn.current, {
+  //             scale: 1,
+  //             duration: 0.25,
+  //             ease: "power1.out",
+  //           });
+  //         },
+  //         onEnterBack: () => {
+  //           gsap.to(btn.current, {
+  //             scale: 0,
+  //             duration: 0.25,
+  //             ease: "power1.out",
+  //           });
+  //         },
+  //       },
+  //     });
+  //     gsap.to(mobile_menu.current, {
+  //       scrollTrigger: {
+  //         trigger: document.documentElement,
+  //         start: 0,
+  //         end: window.innerHeight,
+  //         onLeave: () => {
+  //           gsap.to(mobile_menu.current, {
+  //             scale: 1,
+  //             duration: 0.25,
+  //             ease: "power1.out",
+  //           });
+  //         },
+  //         onEnterBack: () => {
+  //           gsap.to(mobile_menu.current, {
+  //             scale: 0,
+  //             duration: 0.25,
+  //             ease: "power1.out",
+  //           });
+  //         },
+  //       },
+  //     });
+  //   }
+  // }, []);
 
   return (
     <div className={styles.wrapper}>
