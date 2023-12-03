@@ -1,9 +1,17 @@
 .wrapper{
     padding-top: 2vmax;
-    padding-left: 2vmax;
-    padding-right: 2vmax;
+    padding-left: 2vw;
+    padding-right: 2vw;
     display: flex;
     align-items: flex-start;
     padding-bottom: 14vmax;
 }
 
+/* tablet version */
+
+@media (max-width:1000px){
+    .wrapper{
+        flex-direction: column;
+        gap: 2vmax;
+    }
+}
