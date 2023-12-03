@@ -27,3 +27,8 @@
     text-decoration: line-through;
 }
 
+@media (max-width:650px){
+    .item{
+      width: 40%;
+    }
+}

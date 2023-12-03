@@ -59,10 +59,6 @@
         line-height: 12vmax;
     }
 
-    .hero_text_container h1{
-        font-size: 13vw;
-    }
-
     .wrapper h2{
         font-size: 3vmax;
         margin-top: 2vmax;
@@ -72,12 +68,10 @@
 
 /* mobile version */
 
-@media (max-width:600px) {
+@media (max-width:650px) {
     .wrapper{
         padding-top: 6vw;
     }
-
-
     .hero_text_container{
         display: block;
         text-align: center;

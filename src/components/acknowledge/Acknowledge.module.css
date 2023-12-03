@@ -22,13 +22,14 @@
 
 .container h2{
     font-family: mono;
+    font-size: 2vmax;
     margin-bottom: 2rem;
 }
 
 .button{
     font-family: mono;
     color: #fff;
-    padding: 1.5rem 3rem;
+    padding: 1.2rem 2.5rem;
     border-radius: 2rem;
     background-color: #1c1d20;
     cursor: pointer;

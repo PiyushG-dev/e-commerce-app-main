@@ -138,9 +138,7 @@
 
 /* mobile version */
 
-@media (max-width:600px){
-
-  
+@media (max-width:650px){
     .logo{
         font-size: .8rem;
         line-height: 1.5rem;

@@ -1,9 +1,10 @@
 .wrapper{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
     padding-bottom: 14vmax;
     display: flex;
     flex-direction: column;
+
 }
 .heading{
    padding-bottom: 1rem;
@@ -21,3 +22,22 @@
     gap: 1rem;
 }
 
+/* tablet version */
+@media(max-width:1000px){
+    .wrapper{
+        align-items: center;
+    }
+}
+
+
+/* mobile version */
+
+@media (max-width:650px){
+    
+
+   .container{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+}
