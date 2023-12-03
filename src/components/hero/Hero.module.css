@@ -75,11 +75,11 @@
     .hero_text_container{
         display: block;
         text-align: center;
-        line-height: 17vmax;
+        line-height: 15vmax;
     }
 
     .hero_text_container h1{
-        font-size: 16vmax;
+        font-size: 22vw;
     }
 
     .hero_line_one{
