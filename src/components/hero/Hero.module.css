@@ -79,7 +79,7 @@
     }
 
     .hero_text_container h1{
-        font-size: 22vw;
+        font-size: 19vmax;
     }
 
     .hero_line_one{
@@ -90,7 +90,8 @@
     }
 
     .wrapper h2{
-        font-size: 3.5vmax;
+        font-size: 3vmax;
+        font-family: helve;
         margin-top: 1vmax;
         border: none;
     }
