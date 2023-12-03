@@ -4,6 +4,7 @@
    align-items: center;
    justify-content: center;
    padding-bottom: 14vmax;
+   overflow-x: hidden;
 }
 
 .apparel_container{
