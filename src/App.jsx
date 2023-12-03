@@ -16,13 +16,13 @@ import kid_banner2 from "./image/27.jpeg";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
 
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
   return (
     <div className="App">
       <BrowserRouter>
